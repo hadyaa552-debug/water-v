@@ -81,10 +81,9 @@ export default function LeadForm() {
           onChange={(e) => setFormData({ ...formData, interest: e.target.value })}
           className="w-full px-3 py-2 text-base border border-white/20 rounded-lg text-right glass-dark text-white focus:outline-none focus:border-white/40 transition-all duration-300"
         >
-          <option value="1BD">غرفة واحدة - من 82 م²</option>
-          <option value="2BD">غرفتين - من 165 م²</option>
-          <option value="3BD">3 غرف - من 215 م²</option>
-          <option value="4BD">4 غرف - Flexi Finished</option>
+          <option value="triangle">Triangle – فيلات وتاون هاوس</option>
+          <option value="w55">W55 – وحدات تجارية</option>
+          <option value="both">كلا المشروعين</option>
         </select>
 
         <Button

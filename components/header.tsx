@@ -10,7 +10,6 @@ export default function Header() {
 
   const menuItems = [
     { label: "الرئيسية", href: "#hero" },
-    { label: "ووتر واي إيست", href: "#about" },
     { label: "Triangle", href: "#triangle" },
     { label: "W55", href: "#w55" },
     { label: "تواصل معنا", href: "#contact" },
@@ -32,7 +31,6 @@ export default function Header() {
             <Image src="/images/waterway-logo.png" alt="Waterway" width={120} height={40} className="h-8 w-auto" />
           </Link>
 
-          {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-6">
             {menuItems.map((item) => (
               <button key={item.href} onClick={() => scrollToSection(item.href)}
