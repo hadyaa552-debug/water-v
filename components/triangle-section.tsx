@@ -34,7 +34,7 @@ export default function TriangleSection() {
             القاهرة الجديدة – الرنج رود الثاني
           </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">Triangle</h2>
-          <p className="text-xl text-gray-400">ترايانجل – ووتر واي ديفلوبمنتس</p>
+          <p className="text-xl text-gray-400">ترايانجل – The Waterway Developments</p>
         </div>
 
         {/* Gallery */}
@@ -47,7 +47,7 @@ export default function TriangleSection() {
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">نبذة عن المشروع</h3>
             <p className="text-gray-400 leading-relaxed mb-6">
-              Triangle هو مشروع سكني راقٍ من ووتر واي ديفلوبمنتس على ٢٥٠ فداناً في قلب القاهرة الجديدة، مباشرةً على الرنج رود الثاني أمام Palm Hills. ٨٠٪ من المساحة مخصصة للطبيعة والحدائق، مع بارك مركزي يُعد من أكبر ٥ حدائق في القاهرة على مساحة ٤٨ فداناً.
+              Triangle هو مشروع سكني راقٍ من The Waterway Developments على ٢٥٠ فداناً في قلب القاهرة الجديدة، مباشرةً على الرنج رود الثاني أمام Palm Hills. ٨٠٪ من المساحة مخصصة للطبيعة والحدائق، مع بارك مركزي يُعد من أكبر ٥ حدائق في القاهرة على مساحة ٤٨ فداناً.
             </p>
             <div className="grid grid-cols-3 gap-3">
               {[{ value: "250", label: "فدان" }, { value: "80%", label: "مساحات خضراء" }, { value: "48", label: "فدان بارك مركزي" }].map((s, i) => (

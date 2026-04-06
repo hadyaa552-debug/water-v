@@ -16,16 +16,17 @@ export default function W55Section() {
             القاهرة الجديدة – التجمع الخامس
           </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">W55</h2>
-          <p className="text-xl text-gray-400">مشروع تجاري متكامل – ووتر واي ديفلوبمنتس</p>
+          <p className="text-xl text-gray-400">مشروع تجاري متكامل – The Waterway Developments</p>
         </div>
 
         {/* Main Image */}
         <div className="max-w-6xl mx-auto mb-12">
-          <div className="relative aspect-[16/7] overflow-hidden rounded-2xl bg-gray-800 flex items-center justify-center">
-            <div className="text-center text-gray-500">
-              <Building2 className="w-20 h-20 mx-auto mb-4 opacity-30" />
-              <p className="text-lg font-medium">W55 – Waterway Developments</p>
-              <p className="text-sm mt-2 opacity-70">مفهوم تجاري جديد في قلب التجمع الخامس</p>
+          <div className="relative aspect-[16/7] overflow-hidden rounded-2xl">
+            <img src="/images/w55-aerial.jpg" alt="W55 Waterway" className="w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+            <div className="absolute bottom-6 right-6 text-right text-white">
+              <p className="text-2xl font-bold">W55</p>
+              <p className="text-white/70 text-sm">القاهرة الجديدة – التجمع الخامس</p>
             </div>
           </div>
         </div>
@@ -35,7 +36,7 @@ export default function W55Section() {
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">نبذة عن المشروع</h3>
             <p className="text-gray-400 leading-relaxed mb-6">
-              W55 هو مشروع تجاري متكامل من ووتر واي ديفلوبمنتس، يقدم مفهوماً جديداً يجمع بين العيادات الطبية، المحلات التجارية، مطاعم وكافيهات، ومكاتب إدارية. مستوحى من فلسفة الوظيفة السلسة والمشاريع المتكاملة في موقع استراتيجي بالقاهرة الجديدة.
+              W55 هو مشروع تجاري متكامل من The Waterway Developments، يقدم مفهوماً جديداً يجمع بين العيادات الطبية، المحلات التجارية، مطاعم وكافيهات، ومكاتب إدارية. مستوحى من فلسفة الوظيفة السلسة والمشاريع المتكاملة في موقع استراتيجي بالقاهرة الجديدة.
             </p>
             <div className="grid grid-cols-2 gap-3">
               {[
