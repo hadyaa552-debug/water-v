@@ -11,8 +11,8 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <HeroSection />
-      <TriangleSection />
       <W55Section />
+      <TriangleSection />
       <Footer />
       <WhatsAppWidget />
       <MobileBottomBar />
