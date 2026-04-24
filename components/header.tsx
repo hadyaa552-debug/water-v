@@ -40,7 +40,11 @@ export default function Header() {
             ))}
           </nav>
 
+<<<<<<< HEAD
           <a href="tel:+201123466035"
+=======
+          <a href="tel:+201018336004"
+>>>>>>> 21076367a0ec5a9d5f2b4e8ba8e6f260a391ede1
             className="hidden md:flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
             <Phone className="w-4 h-4" />
             اتصل الآن
@@ -59,7 +63,11 @@ export default function Header() {
                 {item.label}
               </button>
             ))}
+<<<<<<< HEAD
             <a href="tel:+201123466035" className="flex items-center gap-2 text-blue-400 px-4 py-3 text-sm font-medium">
+=======
+            <a href="tel:+201018336004" className="flex items-center gap-2 text-blue-400 px-4 py-3 text-sm font-medium">
+>>>>>>> 21076367a0ec5a9d5f2b4e8ba8e6f260a391ede1
               <Phone className="w-4 h-4" />
               اتصل الآن
             </a>
