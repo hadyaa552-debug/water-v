@@ -1,11 +1,7 @@
 "use client"
 
 export default function WhatsAppWidget() {
-<<<<<<< HEAD
   const phoneNumber = "201123466035"
-=======
-  const phoneNumber = "201018336004"
->>>>>>> 21076367a0ec5a9d5f2b4e8ba8e6f260a391ede1
   const message = encodeURIComponent("مرحباً، أنا مهتم بمشروع Waterway East وأود الحصول على المزيد من المعلومات.")
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`
 

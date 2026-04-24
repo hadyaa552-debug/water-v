@@ -3,11 +3,7 @@
 import { MapPin, Building2, Coffee, Stethoscope } from "lucide-react"
 
 export default function W55Section() {
-<<<<<<< HEAD
   const phoneNumber = "+201123466035"
-=======
-  const phoneNumber = "+201018336004"
->>>>>>> 21076367a0ec5a9d5f2b4e8ba8e6f260a391ede1
   const waMessage = encodeURIComponent("مرحباً، أنا مهتم بمشروع W55 Waterway في القاهرة الجديدة وأريد معرفة المزيد")
 
   return (
