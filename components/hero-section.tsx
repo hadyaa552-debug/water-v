@@ -31,7 +31,7 @@ export default function HeroSection() {
               </div>
             </div>
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
-              <a href="tel:+201024383203" className="glass-white text-black px-6 py-3 rounded-lg font-semibold text-base">اتصل الآن</a>
+              <a href="tel:+201123466035" className="glass-white text-black px-6 py-3 rounded-lg font-semibold text-base">اتصل الآن</a>
               <a href="#triangle" className="glass text-white px-6 py-3 rounded-lg font-semibold text-base">استعرض المشاريع</a>
             </div>
           </div>

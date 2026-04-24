@@ -21,7 +21,7 @@ export default function TriangleSection() {
   const openModal = (src: string) => { setSelectedImage(src); setIsModalOpen(true) }
   const closeModal = () => { setIsModalOpen(false); setSelectedImage("") }
 
-  const phoneNumber = "+201024383203"
+  const phoneNumber = "+201123466035"
   const waMessage = encodeURIComponent("مرحباً، أنا مهتم بمشروع Triangle Waterway في القاهرة الجديدة وأريد معرفة المزيد")
 
   return (
